@@ -7,7 +7,7 @@ export const TrafficLight = () => {
     const [color, setColor] = useState('hola')
 
     return (
-        <div className="container m-auto mt-5 p-3 col-2 rounded-3 bg-black">
+        <div className="container m-auto mt-5 p-3 col-2 col-lg-1 rounded-3 bg-black">
             <div className="row d-flex flex-column my-5">
                 <div className={`light col-1 m-auto btn btn-danger btn-lg rounded-5 ${color == 'rojo' ? 'glow-red' : ''}`}
                     onClick={() => setColor('rojo')}>
